@@ -1,0 +1,17 @@
+object: Drew Williams
+
+attributes:
+name: "Drew Williams"
+age: 31
+position: "server"
+full_time = true
+part_time = false
+wage: 7.25
+hours_per_week: 35
+
+method results:
+add_employee: drew_williams = Staff.new (Drew Williams added to database)
+increase_age: 31 + 1 = 32
+promote_employee: position = manager
+give_raise: 7.25 + 0.50 = 7.75
+update_workload: full_time = true 
