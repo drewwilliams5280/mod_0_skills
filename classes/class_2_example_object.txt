@@ -1,0 +1,13 @@
+object: Taco
+
+attributes:
+ingredients: ["tortilla", "beef", "tomatoes", "lettuce", "cheese"]
+spicy: false
+calories: 250
+prep_difficulty: 3
+
+methods:
+add_ingredient: ["tortilla", "beef", "tomatoes", "lettuce", "cheese", "jalapenos"]
+is_spicy: spicy = true
+update_calories: 250 + 10 = 260
+increase_difficulty: 3 + 1 = 4

@@ -1,0 +1,13 @@
+class Food
+
+attributes:
+ingredients(array of strings)
+spicy(boolean)
+calories(integer)
+prep_difficulty(array of integers)
+
+methods:
+add_ingredient (will add ingredients array)
+is_spicy (will change spicy attribute to true if jalapenos are in ingredients)
+update_calories (will increase or lower calories attribute depending on ingredients)
+increase_difficulty (will increase difficulty of prep depending on number of ingredients in array)
