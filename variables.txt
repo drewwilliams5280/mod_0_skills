@@ -1,0 +1,9 @@
+food = "Taco"
+is_true = true
+food = "Pizza"
+num2 = 10
+num7 = 3
+quotient = num7 / num2
+songs = ["It wasn't me", "Boombastic", "Angel"]
+songs.shift
+food.length
