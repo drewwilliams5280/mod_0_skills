@@ -1,0 +1,17 @@
+class Staff
+
+attributes:
+name(string)
+age(integer)
+position(string)
+full_time(boolean)
+part_time(boolean)
+wage(integer)
+hours_per_week(integer)
+
+methods:
+add_employee(adds employee to database)
+increase_age(current age + 1 on employee's birthday)
+promote_employee(change position from server to manager, etc.)
+give_raise(increase wage)
+hours_worked(will take the hours_per_week attribute, and if greater than 32, full_time=true. If less than 32, part_time=true)
